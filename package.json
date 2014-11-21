@@ -1,0 +1,25 @@
+{
+  "name": "random-reminder",
+  "version": "1.0.0",
+  "description": "Random Reminders as a Service",
+  "main": "dist/index.js",
+  "scripts": {
+    "prepublish": "./node_modules/.bin/coffee -co dist src",
+    "start": "./node_modules/.bin/coffee -cwo dist src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Whoaa512/random-reminders.git"
+  },
+  "author": "C.J. Winslow <whoaa512@gmail.com>",
+  "license": "none",
+  "bugs": {
+    "url": "https://github.com/Whoaa512/random-reminders/issues"
+  },
+  "homepage": "https://github.com/Whoaa512/random-reminders",
+  "devDependencies": {
+    "coffee-script": "1.8.0"
+  },
+  "private": true
+}
